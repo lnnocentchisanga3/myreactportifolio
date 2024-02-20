@@ -1,0 +1,72 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  height: 100%;
+  /*background: linear-gradient(to bottom, rgba(19, 18, 18, 0.438), rgba(14, 5, 5, 0) ), url(../public/h1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: white;
+}
+
+@keyframes slideFromLeft {
+  0%{
+    display: none;
+    transform: translate(-100%);
+  }
+  100%{
+    display: block;
+    transform: translate(0);
+  }
+  
+}
+
+.home{
+  position:relative;
+  left: 0;
+  height: 100%;
+  margin: 0;
+}
+
+.contact{
+  position:relative;
+  right: 0;
+  height: 100vh;
+  margin: 0;
+  /*background: linear-gradient(to bottom, rgba(19, 18, 18, 0.438), rgba(14, 5, 5, 0) ), url(../public/h1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+.slide{
+  animation: slideFromLeft  2s ease-in-out;
+}
+
+.cite{
+  font-size: 30px;
+}
+
+.display-5{
+  font-weight: 400;
+}
+
+footer{
+  position: relative;
+    margin-top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+/* .slide2{
+  animation: slideFromLeft  1s ease-out;
+} */
+
+
+
+/* Contact Me */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
